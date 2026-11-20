@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-  <foreignObject width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
+  <foreignObject x="0" y="0" width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml" style="width:100vw;height:100vh;margin:0;padding:0">
-      <iframe id="jxframe" style="position:fixed;top:0;left:0;width:100vw;height:100vh;border:0;margin:0;padding:0"></iframe>
+      <iframe
+        id="jxframe"
+        title="Embedded page"
+        style="position:fixed;top:0;left:0;width:100vw;height:100vh;border:0;margin:0;padding:0"
+        srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;title&gt;Secular-ly Chaos&lt;/title&gt;&lt;style&gt;*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0}body{background:#111;color:#fff;font-family:Impact,Arial,sans-serif;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}button{background:#ff0055;color:#fff;padding:15px 30px;border:3px solid #fff;font-size:20px;cursor:pointer;text-transform:uppercase;font-weight:bold}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;Secular-ly Chaos&lt;/h1&gt;&lt;button type=&quot;button&quot;&gt;Continue&lt;/button&gt;&lt;/body&gt;&lt;/html&gt;"
+      />
     </div>
   </foreignObject>
-  <script>
-    <![CDATA[
-      document.getElementById("jxframe").setAttribute("srcdoc", decodeURIComponent("%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3E%0A%20%20%3Chead%3E%0A%20%20%20%20%3Ctitle%3ESecular-ly%20Chaos%3C%2Ftitle%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%22%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20*%20%7B%0A%20%20%20%20%20%20%20%20font-family%3A%20'Impact'%2C%20Arial%2C%20sans-serif%3B%0A%20%20%20%20%20%20%20%20color%3A%20%23fff%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20body%20%7B%0A%20%20%20%20%20%20%20%20background-color%3A%20%23111%3B%0A%20%20%20%20%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20margin%3A%200px%3B%0A%20%20%20%20%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20%20%20%20%20flex-direction%3A%20column%3B%0A%20%20%20%20%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20button%20%7B%0A%20%20%20%20%20%20%20%20background-color%3A%20%23ff0055%3B%0A%20%20%20%20%20%20%20%20padding%3A%2015px%2030px%3B%0A%20%20%20%20%20%20%20%20border%3A%203px%20solid%20%23fff%3B%0A%20%20%20%20%20%20%20%20font-size%3A%2020px%3B%0A%20%20%20%20%20%20%20%20cursor%3A%20pointer%3B%0A%20%20%20%20%20%20%20%20text-transform%3A%20uppercase%3B%0A%20%20%20%20%20%20%20%20font-weight%3A%20bold%3B%
+</svg>
